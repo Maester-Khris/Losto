@@ -1,0 +1,72 @@
+// @import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+@import url('//db.onlinewebfonts.com/c/b4e4280eacbbd2ed88862d648b0b1f2f?family=Proxima+Nova+Soft');
+
+.container {
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.flot {
+  position: absolute;
+}
+
+.text {
+	color: #2A617A;
+   font-family: 'Poppins', sans-serif !important;
+   font-style: normal;
+   font-weight: 200;
+	// font-family: 'proxima-nova';
+	// font-weight: bold;
+	line-height: 1.875;
+}
+
+#local-player{
+   // top:10px;
+   bottom: 10px;
+   height: 100%;
+   width: 100%;
+}
+#remote-playerlist, #remote-videos{
+   bottom: 100px!important;
+   right: 20px!important;
+   height: 100px!important;
+   width: 100px!important;
+}
+
+.remote_video_class{
+   bottom: 40px!important;
+   right: 15px!important;
+   height: 100px!important;
+   width: 100px!important;
+   // margin-bottom: 10px;
+}
+.my_local_video_class{
+   height: 100%;
+   width: 100%;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 2px;
+}
+
+.player {
+  width: 480px;
+  height: 320px;
+}
+
+@media (max-width: 640px) {
+  .player {
+    width: 320px;
+    height: 240px;
+  }
+}
+
+#chat-content {
+  height: 180px;
+  overflow-y: scroll;
+}
+
+#remote-videos {
+  display: flex;
+}
